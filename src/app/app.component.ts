@@ -1,13 +1,8 @@
-import {Component, ElementRef, OnDestroy, OnInit, ViewChild} from '@angular/core';
-import {FormControl, FormGroup, Validators} from '@angular/forms';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent  {
-
-  name = 'Angular Bootstrap';
-  
-}
+export class AppComponent {}
